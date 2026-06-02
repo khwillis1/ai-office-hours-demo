@@ -1,4 +1,5 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Plot humidity (RH_pct) over time for each unit as a separate colored line, with a legend and labeled axes
+# Load data/test_run_data.csv (columns: Unit, Timestamp, TempF, RH_pct, Status)
+# Plot RH_pct over time for each Unit as a separate colored line, with a legend and labeled axes
