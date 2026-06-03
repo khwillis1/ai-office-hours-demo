@@ -58,7 +58,30 @@ Unit: DH-004, Timestamp: 2026-06-01 09:30, TempF: 74.8, RH_pct: 63
 
 ---
 
-### Demo 1B — Read the Log File (5 min)
+### Demo 1B — Visualize Humidity Trends (5 min)
+
+**Open:** `demo_2_humidity_chart.py`
+
+**Say:** *"Now let's visualize humidity across all units. The data loading is already there — I'll trigger Copilot just for the chart."*
+
+**Position cursor** at the end of line 8 (the second comment line) and press **Enter**.
+
+**Wait for Copilot** to suggest the plotting code. Press **Tab** to accept line by line.
+
+**Run it:**
+```bash
+python demo_2_humidity_chart.py
+```
+
+**Expected output:** A chart window opens with 6 colored lines, one per unit. `humidity_chart.png` is saved in the project root.
+
+**Say:** *"Each line is a unit. You can immediately see which ones are running high. Copilot wrote the groupby loop, the axis labels, the legend — all from two comment lines."*
+
+**If Copilot doesn't cooperate:** Open `solutions/demo_2_complete.py` and run that instead.
+
+---
+
+### Demo 1C — Read the Log File (5 min)
 
 **Open:** `demo_3_log_summary.py`
 
